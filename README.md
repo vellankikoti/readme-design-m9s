@@ -9,10 +9,10 @@ Maybe you can mention me or this repo in the acknowledgements too
 <div align="center">
 
   <img src="assets/logo.png" alt="logo" width="200" height="auto" />
-  <h1>Awesome Readme Template</h1>
+  <h1>m9sweeper</h1>
   
   <p>
-    An awesome README template for your projects! 
+    Kubernetes Security for Everyone! 
   </p>
   
   
@@ -55,203 +55,106 @@ Maybe you can mention me or this repo in the acknowledgements too
 # :notebook_with_decorative_cover: Table of Contents
 
 - [About the Project](#star2-about-the-project)
-  * [Screenshots](#camera-screenshots)
-  * [Tech Stack](#space_invader-tech-stack)
-  * [Features](#dart-features)
-  * [Color Reference](#art-color-reference)
-  * [Environment Variables](#key-environment-variables)
-- [Getting Started](#toolbox-getting-started)
+  * [Features in Action](#camera-features-in-action)
+  * [Features List](#dart-features)
   * [Prerequisites](#bangbang-prerequisites)
-  * [Installation](#gear-installation)
-  * [Running Tests](#test_tube-running-tests)
-  * [Run Locally](#running-run-locally)
-  * [Deployment](#triangular_flag_on_post-deployment)
-- [Usage](#eyes-usage)
-- [Roadmap](#compass-roadmap)
-- [Contributing](#wave-contributing)
+  * [Tool Box](#toolbox-toolbox)
+  * [Quick Install](#gear-installation)
   * [Code of Conduct](#scroll-code-of-conduct)
-- [FAQ](#grey_question-faq)
+
+- [Contributors](#wave-contributing)
 - [License](#warning-license)
 - [Contact](#handshake-contact)
-- [Acknowledgements](#gem-acknowledgements)
-
   
 
 <!-- About the Project -->
 ## :star2: About the Project
 
+### m9sweeper is a free and easy kubernetes security platform. It integrates industry standard open source utilities into a one-stop-shop kubernetes security tool that can walk most kubernetes adminstrators through securing a kubernetes cluster as well as the apps running on the cluster.
+
 
 <!-- Screenshots -->
-### :camera: Screenshots
+### :camera: Features in Action
 
 <div align="center"> 
-  <img src="https://placehold.co/600x400?text=Your+Screenshot+here" alt="screenshot" />
+  <img src="/workspaces/readme-design-m9s/assets/m9sweeper-Features.gif" alt="m9sweeper-features-gif" />
 </div>
 
 
-<!-- TechStack -->
-### :space_invader: Tech Stack
 
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="https://www.typescriptlang.org/">Typescript</a></li>
-    <li><a href="https://nextjs.org/">Next.js</a></li>
-    <li><a href="https://reactjs.org/">React.js</a></li>
-    <li><a href="https://tailwindcss.com/">TailwindCSS</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://www.typescriptlang.org/">Typescript</a></li>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-    <li><a href="https://go.dev/">Golang</a></li>
-    <li><a href="https://nestjs.com/">Nest.js</a></li>
-    <li><a href="https://socket.io/">SocketIO</a></li>
-    <li><a href="https://www.prisma.io/">Prisma</a></li>    
-    <li><a href="https://www.apollographql.com/">Apollo</a></li>
-    <li><a href="https://graphql.org/">GraphQL</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.mysql.com/">MySQL</a></li>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
-    <li><a href="https://redis.io/">Redis</a></li>
-    <li><a href="https://neo4j.com/">Neo4j</a></li>
-    <li><a href="https://www.mongodb.com/">MongoDB</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>DevOps</summary>
-  <ul>
-    <li><a href="https://www.docker.com/">Docker</a></li>
-    <li><a href="https://www.jenkins.io/">Jenkins</a></li>
-    <li><a href="https://circleci.com/">CircleCLI</a></li>
-  </ul>
-</details>
 
 <!-- Features -->
 ### :dart: Features
 
-- Feature 1
-- Feature 2
-- Feature 3
+m9sweeper makes securing a cluster easy with:
 
-<!-- Color Reference -->
-### :art: Color Reference
+- CVE Scanning
+- Enforcement of CVE Scanning Rules
+- Reports and Dashboards, including historical reporting to see how your security posture has changed over time
+- CIS Security Benchmarking
+- Pen Testing
+- Deployment Coaching
+- Intrusion Detection
+- Gatekeeper Policy Management
 
-| Color             | Hex                                                                |
-| ----------------- | ------------------------------------------------------------------ |
-| Primary Color | ![#222831](https://via.placeholder.com/10/222831?text=+) #222831 |
-| Secondary Color | ![#393E46](https://via.placeholder.com/10/393E46?text=+) #393E46 |
-| Accent Color | ![#00ADB5](https://via.placeholder.com/10/00ADB5?text=+) #00ADB5 |
-| Text Color | ![#EEEEEE](https://via.placeholder.com/10/EEEEEE?text=+) #EEEEEE |
-
-
-<!-- Env Variables -->
-### :key: Environment Variables
-
-To run this project, you will need to add the following environment variables to your .env file
-
-`API_KEY`
-
-`ANOTHER_API_KEY`
 
 <!-- Getting Started -->
-## 	:toolbox: Getting Started
+## 	:toolbox: Toolbox
+
+m9sweeper makes it easy to orchestrate the implementation of a number of free security tools:
+
+[Trivy](https://github.com/aquasecurity/trivy): CVE Scanner
+
+[Kubesec](https://github.com/controlplaneio/kubesec): Deployment Best Practices
+
+[Kube Bench](https://github.com/aquasecurity/kube-bench): CIS Benchmarks
+
+[OPA Gatekeeper](https://github.com/open-policy-agent/gatekeeper): Compliance and Security Policies
+
+[Kube Hunter](https://github.com/aquasecurity/kube-hunter): Cluster Penetration Testing
+
+[Project Falco](https://falco.org/): Intrusion Detection
+
 
 <!-- Prerequisites -->
 ### :bangbang: Prerequisites
 
-This project uses Yarn as package manager
+This project requires a Kubernetes Cluster and uses helm as package manager
 
 ```bash
- npm install --global yarn
+Installing Kubernetes Locally with Minikube
+Mac: Install from terminal
+curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-darwin-amd64
+sudo install minikube-darwin-amd64 /usr/local/bin/minikube
+
+Windows: Install with chocolatey and install a bash client
+choco install minikube
+choco install git
+
+Both: Start Kubernetes
+minikube start --cni calico --kubernetes-version=v1.23.16
+kubectl get pods --all-namespaces
+
+More at  https://minikube.sigs.k8s.io/docs/start/
+
 ```
 
 <!-- Installation -->
-### :gear: Installation
+### :gear: Quick Installation
 
-Install my-project with npm
+While our documentation has more details, installing m9sweeper can be as simple
+as running a few CLI commands to install it into your own kubernetes cluster
+with helm.
 
-```bash
-  yarn install my-project
-  cd my-project
-```
+    helm repo add m9sweeper https://helm.m9sweeper.io/chartrepo/m9sweeper && \
+    helm repo update && \
+    helm upgrade m9sweeper m9sweeper/m9sweeper --install --wait \
+      --create-namespace --namespace m9sweeper-system \
+      --set-string dash.init.superAdminEmail="super.admin@m9sweeper.io" \
+      --set-string dash.init.superAdminPassword="password" \
+      --set-string global.jwtSecret="changeme" \
+      --set-string global.apiKey="YOUR-API-KEY"
    
-<!-- Running Tests -->
-### :test_tube: Running Tests
-
-To run tests, run the following command
-
-```bash
-  yarn test test
-```
-
-<!-- Run Locally -->
-### :running: Run Locally
-
-Clone the project
-
-```bash
-  git clone https://github.com/Louis3797/awesome-readme-template.git
-```
-
-Go to the project directory
-
-```bash
-  cd my-project
-```
-
-Install dependencies
-
-```bash
-  yarn install
-```
-
-Start the server
-
-```bash
-  yarn start
-```
-
-
-<!-- Deployment -->
-### :triangular_flag_on_post: Deployment
-
-To deploy this project run
-
-```bash
-  yarn deploy
-```
-
-
-<!-- Usage -->
-## :eyes: Usage
-
-Use this space to tell a little more about your project and how it can be used. Show additional screenshots, code samples, demos or link to other resources.
-
-
-```javascript
-import Component from 'my-project'
-
-function App() {
-  return <Component />
-}
-```
-
-<!-- Roadmap -->
-## :compass: Roadmap
-
-* [x] Todo 1
-* [ ] Todo 2
-
 
 <!-- Contributing -->
 ## :wave: Contributing
@@ -260,27 +163,54 @@ function App() {
   <img src="https://contrib.rocks/image?repo=Louis3797/awesome-readme-template" />
 </a>
 
+The initial project was created by team members at Intelletive Consulting at times when projects were slow or to train new members, but we hope others will contribute as well. Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
-Contributions are always welcome!
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tbody>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/jacobbeasley"><img src="https://avatars.githubusercontent.com/u/433581?v=4?s=100" width="100px;" alt="Jacob Beasley"/><br /><sub><b>Jacob Beasley</b></sub></a><br /><a href="https://github.com/m9sweeper/m9sweeper/commits?author=jacobbeasley" title="Code">💻</a> <a href="https://github.com/m9sweeper/m9sweeper/commits?author=jacobbeasley" title="Documentation">📖</a> <a href="#research-jacobbeasley" title="Research">🔬</a> <a href="#projectManagement-jacobbeasley" title="Project Management">📆</a> <a href="#infra-jacobbeasley" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/jasonWoodman"><img src="https://avatars.githubusercontent.com/u/15304205?v=4?s=100" width="100px;" alt="jasonWoodman"/><br /><sub><b>jasonWoodman</b></sub></a><br /><a href="https://github.com/m9sweeper/m9sweeper/commits?author=jasonWoodman" title="Code">💻</a> <a href="https://github.com/m9sweeper/m9sweeper/commits?author=jasonWoodman" title="Documentation">📖</a> <a href="#research-jasonWoodman" title="Research">🔬</a> <a href="#projectManagement-jasonWoodman" title="Project Management">📆</a> <a href="#infra-jasonWoodman" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/brandan-schmitz"><img src="https://avatars.githubusercontent.com/u/6267549?v=4?s=100" width="100px;" alt="Brandan Schmitz"/><br /><sub><b>Brandan Schmitz</b></sub></a><br /><a href="https://github.com/m9sweeper/m9sweeper/commits?author=brandan-schmitz" title="Code">💻</a> <a href="#infra-brandan-schmitz" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="https://github.com/m9sweeper/m9sweeper/commits?author=brandan-schmitz" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/KBerndt10"><img src="https://avatars.githubusercontent.com/u/64435961?v=4?s=100" width="100px;" alt="KBerndt10"/><br /><sub><b>KBerndt10</b></sub></a><br /><a href="https://github.com/m9sweeper/m9sweeper/commits?author=KBerndt10" title="Code">💻</a> <a href="#infra-KBerndt10" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/beckysaunders94"><img src="https://avatars.githubusercontent.com/u/42787609?v=4?s=100" width="100px;" alt="beckysaunders94"/><br /><sub><b>beckysaunders94</b></sub></a><br /><a href="https://github.com/m9sweeper/m9sweeper/commits?author=beckysaunders94" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/sunny1304int"><img src="https://avatars.githubusercontent.com/u/55746651?v=4?s=100" width="100px;" alt="Farhan Tanvir"/><br /><sub><b>Farhan Tanvir</b></sub></a><br /><a href="https://github.com/m9sweeper/m9sweeper/commits?author=sunny1304int" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/jshoberg"><img src="https://avatars.githubusercontent.com/u/47117895?v=4?s=100" width="100px;" alt="jshoberg"/><br /><sub><b>jshoberg</b></sub></a><br /><a href="https://github.com/m9sweeper/m9sweeper/commits?author=jshoberg" title="Code">💻</a></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/charisprose"><img src="https://avatars.githubusercontent.com/u/56838011?v=4?s=100" width="100px;" alt="charisprose"/><br /><sub><b>charisprose</b></sub></a><br /><a href="https://github.com/m9sweeper/m9sweeper/commits?author=charisprose" title="Code">💻</a> <a href="https://github.com/m9sweeper/m9sweeper/commits?author=charisprose" title="Tests">⚠️</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="http://www.tariquemahmud.net/"><img src="https://avatars.githubusercontent.com/u/2160924?v=4?s=100" width="100px;" alt="Gazi Tarique Mahmud"/><br /><sub><b>Gazi Tarique Mahmud</b></sub></a><br /><a href="https://github.com/m9sweeper/m9sweeper/commits?author=tarique313" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="http://www.intelletive-bd.com/"><img src="https://avatars.githubusercontent.com/u/15213083?v=4?s=100" width="100px;" alt="Shibly"/><br /><sub><b>Shibly</b></sub></a><br /><a href="https://github.com/m9sweeper/m9sweeper/commits?author=sforkani" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/sabbirali"><img src="https://avatars.githubusercontent.com/u/1538742?v=4?s=100" width="100px;" alt="sabbirali"/><br /><sub><b>sabbirali</b></sub></a><br /><a href="https://github.com/m9sweeper/m9sweeper/commits?author=sabbirali" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/GrantWK"><img src="https://avatars.githubusercontent.com/u/17361213?v=4?s=100" width="100px;" alt="Grant Keiner"/><br /><sub><b>Grant Keiner</b></sub></a><br /><a href="https://github.com/m9sweeper/m9sweeper/commits?author=GrantWK" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/grantoenges"><img src="https://avatars.githubusercontent.com/u/91495894?v=4?s=100" width="100px;" alt="grantoenges"/><br /><sub><b>grantoenges</b></sub></a><br /><a href="https://github.com/m9sweeper/m9sweeper/commits?author=grantoenges" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><img src="?s=100" width="100px;" alt="Maggie Tian"/><br /><sub><b>Maggie Tian</b></sub><br /><a href="https://github.com/m9sweeper/m9sweeper/commits?author=" title="Code">💻</a></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><img src="?s=100" width="100px;" alt="Rakibul Rushel"/><br /><sub><b>Rakibul Rushel</b></sub><br /><a href="https://github.com/m9sweeper/m9sweeper/commits?author=" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><img src="?s=100" width="100px;" alt="Jobayer Ahmed"/><br /><sub><b>Jobayer Ahmed</b></sub><br /><a href="https://github.com/m9sweeper/m9sweeper/commits?author=" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><img src="?s=100" width="100px;" alt="Steve Gagnon"/><br /><sub><b>Steve Gagnon</b></sub><br /><a href="https://github.com/m9sweeper/m9sweeper/commits?author=" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><img src="?s=100" width="100px;" alt="Khorshed Alam"/><br /><sub><b>Khorshed Alam</b></sub><br /><a href="https://github.com/m9sweeper/m9sweeper/commits?author=" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://www.linkedin.com/in/vellankikoti/"><img src="https://avatars.githubusercontent.com/u/38071840?s=100" width="100px;" alt="Koti Vellanki"/></a><br /><sub><b>Koti Vellanki</b></sub><br /><a href="https://www.linkedin.com/in/vellankikoti/" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><img src="?s=100" width="100px;" alt="Sahil Narang"/><br /><sub><b>Sahil Narang</b></sub><br /><a href="https://github.com/m9sweeper/m9sweeper/commits?author=" title="Code">💻</a> <a href="#infra" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a></td>
+      <td align="center" valign="top" width="14.28%"><img src="?s=100" width="100px;" alt="Shahriya Siddique"/><br /><sub><b>Shahriya Siddique</b></sub><br /><a href="https://github.com/m9sweeper/m9sweeper/commits?author=" title="Code">💻</a></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><img src="?s=100" width="100px;" alt="Raiyan Prodhan"/><br /><sub><b>Raiyan Prodhan</b></sub><br /><a href="https://github.com/m9sweeper/m9sweeper/commits?author=" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><img src="?s=100" width="100px;" alt="Kristin Sandness"/><br /><sub><b>Kristin Sandness</b></sub><br /><a href="https://github.com/m9sweeper/m9sweeper/commits?author=" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><img src="?s=100" width="100px;" alt="Samer Sarker"/><br /><sub><b>Samer Sarker</b></sub><br /><a href="https://github.com/m9sweeper/m9sweeper/commits?author=" title="Code">💻</a></td>
+    </tr>
+  </tbody>
+</table>
 
-See `contributing.md` for ways to get started.
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
 
+<!-- ALL-CONTRIBUTORS-LIST:END -->
 
-<!-- Code of Conduct -->
-### :scroll: Code of Conduct
-
-Please read the [Code of Conduct](https://github.com/Louis3797/awesome-readme-template/blob/master/CODE_OF_CONDUCT.md)
-
-<!-- FAQ -->
-## :grey_question: FAQ
-
-- Question 1
-
-  + Answer 1
-
-- Question 2
-
-  + Answer 2
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
 
 
 <!-- License -->
@@ -292,18 +222,6 @@ Distributed under the no License. See LICENSE.txt for more information.
 <!-- Contact -->
 ## :handshake: Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
+Official website - [@official_website](https://m9sweeper.io/)
 
-Project Link: [https://github.com/Louis3797/awesome-readme-template](https://github.com/Louis3797/awesome-readme-template)
-
-
-<!-- Acknowledgments -->
-## :gem: Acknowledgements
-
-Use this section to mention useful resources and libraries that you have used in your projects.
-
- - [Shields.io](https://shields.io/)
- - [Awesome README](https://github.com/matiassingers/awesome-readme)
- - [Emoji Cheat Sheet](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md#travel--places)
- - [Readme Template](https://github.com/othneildrew/Best-README-Template)
-
+Project Link: [https://github.com/m9sweeper/m9sweeper](https://github.com/m9sweeper/m9sweeper)
