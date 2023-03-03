@@ -70,7 +70,7 @@ Maybe you can mention me or this repo in the acknowledgements too
 <!-- About the Project -->
 ## :star2: About the Project
 
-### m9sweeper is a free and easy kubernetes security platform. It integrates industry standard open source utilities into a one-stop-shop kubernetes security tool that can walk most kubernetes adminstrators through securing a kubernetes cluster as well as the apps running on the cluster.
+ m9sweeper is a free and easy kubernetes security platform. It integrates industry standard open source utilities into a one-stop-shop kubernetes security tool that can walk most kubernetes adminstrators through securing a kubernetes cluster as well as the apps running on the cluster.
 
 
 <!-- Screenshots -->
