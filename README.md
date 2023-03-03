@@ -77,7 +77,7 @@ Maybe you can mention me or this repo in the acknowledgements too
 ### :camera: Features in Action
 
 <div align="center"> 
-  <img src="/workspaces/readme-design-m9s/assets/m9sweeper-Features.gif" alt="m9sweeper-features-gif" />
+  <img src="assets/m9sweeper-Features.gif" alt="m9sweeper-features-gif" />
 </div>
 
 
