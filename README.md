@@ -16,9 +16,9 @@ Maybe you can mention me or this repo in the acknowledgements too
   </p>
   
   <p>
-  <a href="https://github.com/remarkablemark">
-  <img src="https://github.com/remarkablemark.png?size=50">
-</a>
+  
+  [![m9sweeper's GitHub stats](https://github-readme-stats.vercel.app/api?username=vellankikoti)](https://github.com/vellankikoti/github-readme-stats)
+  
   </p>
 <!-- Badges -->
 <p>
