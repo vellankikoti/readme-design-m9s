@@ -17,10 +17,10 @@ Maybe you can mention me or this repo in the acknowledgements too
   
   <p>
   
-  [![m9sweeper's GitHub stats](https://github-readme-stats.vercel.app/api?username=vellankikoti)](https://github.com/vellankikoti/github-readme-stats)
+  [![Koti's GitHub stats](https://github-readme-stats.vercel.app/api?username=vellankikoti)](https://github.com/vellankikoti/github-readme-stats)
 </p>
 <p>
-  ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=vellankikoti&show_icons=true)
+  ![Koti's GitHub stats](https://github-readme-stats.vercel.app/api?username=vellankikoti)](https://github-readme-stats.vercel.app/api?username=vellankikoti&show_icons=true)
 
   </p>
 <!-- Badges -->
