@@ -19,6 +19,10 @@ Maybe you can mention me or this repo in the acknowledgements too
   
   [![Koti's GitHub stats](https://github-readme-stats.vercel.app/api?username=vellankikoti)](https://github.com/vellankikoti/github-readme-stats)
 </p>
+<p>
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=vellankikoti)](https://github.com/vellankikoti/github-readme-stats)
+
+</p>
 <!-- Badges -->
 <p>
   <a href="https://github.com/Louis3797/awesome-readme-template/graphs/contributors">
