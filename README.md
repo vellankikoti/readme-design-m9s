@@ -44,13 +44,13 @@ Maybe you can mention me or this repo in the acknowledgements too
 </p>
    
 <h4>
-    <a href="https://github.com/vellankikoti/awesome-readme-template/">View Demo</a>
+    <a href="https://youtu.be/5sIqnYSZWAc/">View Demo</a>
   <span> · </span>
-    <a href="https://github.com/vellankikoti/awesome-readme-template">Documentation</a>
+    <a href="https://m9sweeper.io/docs/latest/docs/">Documentation</a>
   <span> · </span>
-    <a href="https://github.com/vellankikoti/awesome-readme-template/issues/">Report Bug</a>
+    <a href="https://github.com/m9sweeper/m9sweeper/issues/">Report Bug</a>
   <span> · </span>
-    <a href="https://github.com/vellankikoti/awesome-readme-template/issues/">Request Feature</a>
+    <a href="https://github.com/m9sweeper/m9sweeper/issues/">Request Feature</a>
   </h4>
 </div>
 
