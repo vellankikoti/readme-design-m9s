@@ -38,7 +38,7 @@ Maybe you can mention me or this repo in the acknowledgements too
     <img src="https://img.shields.io/github/issues/m9sweeper/m9sweeper" alt="open issues" />
   </a>
   <a href="https://github.com/m9sweeper/m9sweeper/blob/master/LICENSE">
-    <img src="https://img.shields.io/github/license/m9sweeper/awesome-readme-template.svg" alt="license" />
+    <img src="https://img.shields.io/github/license/vellankikoti/awesome-readme-template.svg" alt="license" />
   </a>
 </p>
    
