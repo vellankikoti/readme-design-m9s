@@ -26,19 +26,19 @@ Maybe you can mention me or this repo in the acknowledgements too
     <img src="https://img.shields.io/github/contributors/m9sweeper/m9sweeper" alt="contributors" />
   </a>
   <a href="">
-    <img src="https://img.shields.io/github/last-commit/vellankikoti/m9sweeper" alt="last update" />
+    <img src="https://img.shields.io/github/last-commit/m9sweeper/m9sweeper" alt="last update" />
   </a>
-  <a href="https://github.com/vellankikoti/m9sweeper/network/members">
-    <img src="https://img.shields.io/github/forks/vellankikoti/m9sweeper" alt="forks" />
+  <a href="https://github.com/m9sweeper/m9sweeper/network/members">
+    <img src="https://img.shields.io/github/forks/m9sweeper/m9sweeper" alt="forks" />
   </a>
-  <a href="https://github.com/vellankikoti/m9sweeper/stargazers">
-    <img src="https://img.shields.io/github/stars/vellankikoti/m9sweeper" alt="stars" />
+  <a href="https://github.com/m9sweeper/m9sweeper/stargazers">
+    <img src="https://img.shields.io/github/stars/m9sweeper/m9sweeper" alt="stars" />
   </a>
-  <a href="https://github.com/vellankikoti/m9sweeper/issues/">
-    <img src="https://img.shields.io/github/issues/vellankikoti/m9sweeper" alt="open issues" />
+  <a href="https://github.com/m9sweeper/m9sweeper/issues/">
+    <img src="https://img.shields.io/github/issues/m9sweeper/m9sweeper" alt="open issues" />
   </a>
-  <a href="https://github.com/vellankikoti/m9sweeper/blob/master/LICENSE">
-    <img src="https://img.shields.io/github/license/vellankikoti/awesome-readme-template.svg" alt="license" />
+  <a href="https://github.com/m9sweeper/m9sweeper/blob/master/LICENSE">
+    <img src="https://img.shields.io/github/license/m9sweeper/awesome-readme-template.svg" alt="license" />
   </a>
 </p>
    
