@@ -17,7 +17,7 @@ Maybe you can mention me or this repo in the acknowledgements too
   
   <p>
     
-  [![m9sweepr's GitHub stats](https://github-readme-stats.vercel.app/api?username=vellankikoti)](https://github.com/vellankikoti/k8s-workshop-saiyam/github-readme-stats)
+  [![m9sweepr's GitHub stats](https://github-readme-stats.vercel.app/api?username=vellankikoti)](https://github.com/vellankikoti/m9sweeper/github-readme-stats)
 </p>
 
 <!-- Badges -->
