@@ -16,7 +16,7 @@ Maybe you can mention me or this repo in the acknowledgements too
   </p>
   
  <p>
-[![m9sweeper's GitHub stats](https://github-readme-stats.vercel.app/api?username=m9sweeper)](https://github.com/m9sweeper/github-readme-stats)
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true)
 </p>
 
 <!-- Badges -->
