@@ -15,10 +15,6 @@ Maybe you can mention me or this repo in the acknowledgements too
     Kubernetes Security for Everyone! 
   </p>
   
-  <p>
-    
-  [![m9sweepr's GitHub stats](https://github-readme-stats.vercel.app/api?username=vellankikoti)](https://github.com/vellankikoti/m9sweeper/github-readme-stats)
-</p>
 
 <!-- Badges -->
 <p>
